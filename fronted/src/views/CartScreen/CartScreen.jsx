@@ -18,7 +18,7 @@ function CartScreen(props) {
     }
   }, [dispatch, productId, qty]);
   const removeFromCartHandler = (id) => {
-      dispatch(removeFromCart(id));
+    dispatch(removeFromCart(id));
   };
   const checkOutHandler = () => {
     props.history.push("signin?redirect=shipping");
@@ -38,7 +38,7 @@ function CartScreen(props) {
                 <div className="row">
                   <div>
                     <img
-                      src={item.image}
+                      src={`/${item.image}`}
                       alt={item.name}
                       className="small"
                     ></img>

@@ -4,6 +4,7 @@ import {Link} from "react-router-dom"
 import {BrowserRouter, Route} from "react-router-dom"
 import HomeScreen from "./views/HomeScreen/HomeScreen";
 import RedirectProductScreen from "./views/RedirectProductScreen/RedirectProductScreen";
+import CartScreen from "./views/CartScreen/CartScreen";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <main>
         <Route path="/" exact component={HomeScreen}></Route>
         <Route path="/products/:id" component={RedirectProductScreen}></Route>
+        <Route path="/cart/:id?" component={CartScreen}></Route>
       </main>
       <footer className="row center">All right reserved</footer>
     </div>

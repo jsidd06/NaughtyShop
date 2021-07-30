@@ -20,6 +20,7 @@
   "homepage": "https://github.com/jsidd06/NaughtyShop#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^5.13.4",
     "nodemon": "^2.0.12"
   }
 }

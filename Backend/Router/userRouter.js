@@ -29,9 +29,13 @@ userRouter.post(
           isAdmin: user.isAdmin,
           token: generateToken(user),
         });
-      } 
+      } else {
+        res
+          .status(400)
+          .send({ message: "Either username or password is incorrect" });
+      }
     } else {
-      res.status(401).send({ message: "Invalid email or password" });
+      res.status(404).send({ message: "User not found" });
     }
   })
 );

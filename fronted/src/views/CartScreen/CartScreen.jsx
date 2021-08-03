@@ -21,7 +21,7 @@ function CartScreen(props) {
     dispatch(removeFromCart(id));
   };
   const checkOutHandler = () => {
-    props.history.push("signin?redirect=shipping");
+    props.history.push("/signin?redirect=shipping");
   };
   return (
     <div className="row top">

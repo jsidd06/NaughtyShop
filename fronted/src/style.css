@@ -192,3 +192,17 @@ img.large {
   background-color: #c9c9da;
   color: #df1a1ae0;
 }
+/* signin form */
+.form{
+  max-width:60rem;
+  margin: 0 auto;
+}
+.form > div{
+  display:flex;
+  flex-direction:column;
+  margin: 1rem;
+}
+.form label{
+  margin:1rem 0;
+  display:block;
+}

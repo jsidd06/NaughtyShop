@@ -13,6 +13,7 @@
 #so how can you run that project 
 
 #you just go to terminal and go to cd/backend or run command nodemon server.js
+
 #then you just go to cd/fronted and run command npm start
 
 #now project will be started so you can use that 

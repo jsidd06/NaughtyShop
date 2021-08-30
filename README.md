@@ -11,3 +11,12 @@
 #it's easy to understrand and easy to use it
 
 #so how can you run that project 
+
+#you just go to terminal and go to cd/backend or run command nodemon server.js
+#then you just go to cd/fronted and run command npm start
+
+#now project will be started so you can use that 
+
+#still i have not full project now but i will do more work after some times so that why i have stoped to work now 
+
+#when i start to work then i update read me file and update all files also on my github project 
